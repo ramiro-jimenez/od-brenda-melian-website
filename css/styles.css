@@ -422,6 +422,11 @@ h3 {
   color: var(--teal);
 }
 
+.servicio-icon svg {
+  width: 40px;
+  height: 40px;
+}
+
 .servicio-card p {
   color: var(--gray-light);
   font-size: 0.95rem;
@@ -562,10 +567,14 @@ h3 {
   padding-bottom: 48px;
 }
 
+.footer-brand {
+  text-align: center;
+}
+
 .footer-logo {
   height: 48px;
   width: auto;
-  margin-bottom: 12px;
+  margin: 0 auto 12px;
   opacity: 0.9;
 }
 
