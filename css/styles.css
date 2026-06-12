@@ -269,7 +269,8 @@ h3 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: url('../images/brenda-consultorio.jpg') center 15% / cover no-repeat;
+  background: url('../images/brenda-consultorio-opt.jpg') center 15% / cover no-repeat;
+  background: image-set(url('../images/brenda-consultorio.webp') type("image/webp"), url('../images/brenda-consultorio-opt.jpg') type("image/jpeg")) center 15% / cover no-repeat;
   color: var(--white);
 }
 
