@@ -30,9 +30,13 @@
   <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="500x500" href="/images/logo-color.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <!-- Precarga de la imagen del hero (mejora LCP) -->
+  <link rel="preload" as="image" href="/images/brenda-consultorio.webp" type="image/webp">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- font-display=swap: el texto aparece de inmediato con fuente del sistema, luego carga Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 
   <!-- Datos estructurados para Google (SEO local) -->
@@ -116,7 +120,7 @@
         <div class="sobre-mi-image animate-on-scroll">
           <picture>
             <source srcset="images/brenda-retrato.webp" type="image/webp">
-            <img src="images/brenda-retrato-opt.jpg" alt="Od. Brenda Melian, odontóloga especialista en ortodoncia en Rosario" width="900" height="1120">
+            <img src="images/brenda-retrato-opt.jpg" alt="Od. Brenda Melian, odontóloga especialista en ortodoncia en Rosario" width="900" height="1120" fetchpriority="high">
           </picture>
         </div>
         <div class="sobre-mi-text animate-on-scroll">
