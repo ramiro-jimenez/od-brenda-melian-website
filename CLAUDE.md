@@ -24,3 +24,5 @@
 - Paleta: teal `#00A5A8` / `#008B8E`, beige `#F5F0EB`, gris texto `#4A4A4A`
 - Servicios: Ortodoncia · Alineadores · Blanqueamiento · Odontología General
   (dedicación principal a ortodoncia; recibida en UNR, +8 años de experiencia)
+- **El apellido se escribe "Melian" SIN tilde.** (la carpeta/dominio dicen "melian";
+  es intencional, no "corregir" a "Melián")
